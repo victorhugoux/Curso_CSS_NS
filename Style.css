@@ -1,142 +1,15 @@
-#titulo{
-    color:tomato;
-}
-p.texto{
-    color: steelblue;
-}
-p.texto-especial{
-    color:antiquewhite;
-}
-p.especial{
-    color:mediumseagreen;
-}
-div p {
-    color:aquamarine;
-}
-div h2, div h3 {
-    color:brown;
-}
-*{
-    font-size: 24px;
-}
-
-/* Esto es un comentario 
-.color {
-    color:rgb(167, 165, 47);
-}
-*/
-.color{
-    /* border: 5px black outset; */
-    /*
-        dotted
-        dashed
-        solid
-        double
-        3D
-            groove
-            ridge
-            inset
-            outset
-        none
-        hidden
-    */
-    border-style: solid;
-    border-color: blue;
-    border-radius: 5px;
-    border-width: 2rem;
-}
-#fondo {
-    /*background-color: rgba(256,0,0,);
-    opacity: 1;*/
-    height: 200px;
-    /*background-image: url("Code's God.png");
-    background-size: 100px 100px;
-    background-repeat: no-repeat;
-    background-position: center top;*/
-    background: #f00 url("code's God.png") repeat-y center bottom / 100px 100px;
- 
-}
-.margen{
-    background-color: chocolate;
-    margin: 30px;
-    padding: 30px;
-    border: groove 10px black;
-    height: 100px;
-    width: 100px;
-    overflow: hidden;
-    outline: 10px solid red; 
-    text-align: center;  
-}
-.text{
+html{
+    font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
-    text-align: center;
-    text-decoration: overline;
-    text-shadow: 3px 5px 5px blue;
-}
-a:link{
-    color:blueviolet;
-}
-a:visited{
-    color:goldenrod;
-}
-a:hover{
-    color:red;
-}
-a:active{
-    color:blue;
-}
-ul{
-    background-color: cyan;
-    list-style-type: georgian;
-    /*padding-left: 0;
-    list-style-position: inside;*/
-}
-table{
-    width: 100%;
-    border-collapse: collapse;
-    
-}
-th,td{
-    border: solid 1px #000;
-    padding: 5px;
 }
 
-th{
-    background-color: tomato;
-    color: white;
-    text-align: left;
+body{
+    margin: 0;
+    background-color: #efefef;
 }
-tr:nth-child(even){
-    background-color: #9e9;
-}
-tr:hover{
-    background-color: #7e7;
-    cursor: pointer;
-}
-span{
-    display: block;
-    /* display: none; */
-    /* visibility: hidden; */
-    width: 300px;
-    background-color: #f00;   
-}
-.inline{
-    display: inline;
-    /* display: none; */
-    /* visibility: hidden; */
-}
-#position{
-    position: sticky;
-    left: 20px;
-    top: 25px;
-}
-.left{
-    float: left;
-    width: 150px;
-}
-.right{
-    float: right;
-}
-.container{
-    height: 200px;
+
+header{
+    background-color: #364552;
+    color:white;
+    padding: 3rem 2 rem;
 }
